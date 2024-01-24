@@ -1,0 +1,18 @@
+After creating the node in AWS
+
+Login to the existing Weka cluster node 
+
+From that node need to log to the new node
+
+check the node that we created with the configuration 
+
+need to check for the Primary IP it will take by default eth0 /en0 will the primary IP 
+
+Need to login to the existing cluster machine by using the below command 
+ssh ec2-user@172.17.101.132 -i ~/Desktop/aws
+
+adding a node from the existing cluster node 
+
+weka user login
+
+weka cluster host add (IP)
